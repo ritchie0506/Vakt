@@ -51,19 +51,318 @@
             android:textColor="#FFF" />
     </RelativeLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/recycler_view"
-        android:scrollbars="vertical">
-    </androidx.recyclerview.widget.RecyclerView>
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:elevation="20dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#FFF8DC">
 
 
 
 
+                    <ImageView
+                        android:id="@+id/imageM"
+                        android:background="@drawable/monday3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="25dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="20dp"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="Monday"
+                        android:textAlignment="center"
+                        android:textColor="#4169E9"
+                        android:textSize="35dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:elevation="20dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
 
 
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#FFF8DC">
+
+
+
+
+                    <ImageView
+                        android:id="@+id/imageT"
+                        android:background="@drawable/tuesday"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="25dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="20dp"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="Tuesday"
+                        android:textAlignment="center"
+                        android:textColor="#4169E9"
+                        android:textSize="35dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:elevation="20dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#FFF8DC">
+
+
+
+
+                    <ImageView
+                        android:id="@+id/imageW"
+                        android:background="@drawable/wedneday2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="25dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textW"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="20dp"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="Wednesday"
+                        android:textAlignment="center"
+                        android:textColor="#4169E9"
+                        android:textSize="33dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:elevation="20dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#FFF8DC">
+
+
+
+
+                    <ImageView
+                        android:id="@+id/imageTH"
+                        android:background="@drawable/tuesday"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="25dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textTH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="20dp"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="Thursday"
+                        android:textAlignment="center"
+                        android:textColor="#4169E9"
+                        android:textSize="35dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="20dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#FFF8DC">
+
+
+                    <ImageView
+                        android:id="@+id/imageF"
+                        android:layout_width="80dp"
+                        android:layout_height="74dp"
+                        android:layout_margin="25dp"
+                        android:background="@drawable/friday">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="20dp"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="Friday"
+                        android:textAlignment="center"
+                        android:textColor="#4169E9"
+                        android:textSize="35dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:elevation="20dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#FFF8DC">
+
+
+
+
+                    <ImageView
+                        android:id="@+id/imageS"
+                        android:background="@drawable/saturday"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="25dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="20dp"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="Saturday"
+                        android:textAlignment="center"
+                        android:textColor="#4169E9"
+                        android:textSize="35dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
 
 
 
